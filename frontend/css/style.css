@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --bg-color: #F0F8F5;
+  --bg-color-transparent: #ffffff;
+  --font-color: #000000;
+  --btn-bg-color: #DCE6F6;
+  --accent-color: #020202;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -324,7 +324,7 @@ section {
 }
 
 .splide__slide {
-  border: var(--accent-color) solid;
+  border: var(--btn-bg-color) solid;
   border-width: 5px 10px;
 }
 
